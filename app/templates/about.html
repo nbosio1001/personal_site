@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html>
-    <body<>
-        {% extends "layout.html" %}
-        {% block content %}
-        <div class="about">
-            <h1>About me</h1>
-            <p>This website was built with Python using the Flask framework</p>
-        </div>
-        {% endblock %}
-    </body>
-</html>
+
+{% extends "layout.html" %}
+{% block content %}
+    <div class="about">
+        <h1>About me</h1>
+        <p>My hobbies are reading/learning and I aspire to apply the knowledge 
+            I gained to build disruptive technologies leading to a sustainable future. 
+            My experience has been in hemodynamics, computer programming, and mechanical design. I am very involved in the Los Angeles tech and Tesla enthusiast communities.</p>
+    </div>
+    <a href="https://learnteachcode.org/">
+        <img src="static/images/learnteachcode.jpeg" alt="Learn Teach Code">
+        <!-- class='center' -->
+    </a>
+{% endblock %}
